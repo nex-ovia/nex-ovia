@@ -1,6 +1,6 @@
 # The Nexovia Standard
 
-### A delivery standard for the AI era
+## A delivery standard for the AI era
 
 **by [Amit Srivastava](https://github.com/nex-ovia) · published under [nex-ovia.com](https://www.nex-ovia.com) · NXS v1.0**
 
@@ -165,7 +165,7 @@ These are not suggestions. They are the standard. A solution that does not meet 
 The Nexovia Standard defines four metrics that make delivery quality measurable and not subjective.
 
 | Metric | What It Measures | NXS Target |
-|---|---|---|
+| --- | --- | --- |
 | **Time to Understand** | How long a new person takes to fully grasp an unfamiliar solution | Under 2 hours |
 | **Dependency Swap Time** | How long to replace one external tool or vendor with another | Under 4 hours |
 | **Time to First Version** | Speed from brief to a working, deployable solution | 40% faster than team baseline |
@@ -174,6 +174,18 @@ The Nexovia Standard defines four metrics that make delivery quality measurable 
 These metrics exist because quality without measurement is opinion. NXS turns delivery quality into something that can be tracked, compared, and improved over time.
 
 ---
+
+## Governance: From Philosophy to Practice
+
+The Nexovia Standard is enforced through a **Spec-First Governance Model**. To ensure delivery sovereignty, NXS moves beyond "guidelines" into a strict set of gates.
+
+### The NXS Compliance Gates
+
+1. **The Declaration Gate**: No implementation (code, prompt, or task) begins until its intent is defined in the project manifest.
+2. **The Integrity Gate**: Automated tools (like `nx-viz`) must validate that the physical project matches the declared topology.
+3. **The Sovereignty Gate**: Every runtime and external dependency is audited against the project's sovereignty goals.
+
+For the detailed enforcement rules, see [GOVERNANCE.md](./GOVERNANCE.md).
 
 ## NXS Is Not
 
